@@ -12,7 +12,7 @@ npm install @types/nprogress --save
 You can customize color of a progress bar through nprogress-ovewrite.scss
 ```css
 @import "../node_modules/nprogress/nprogress.css";
-@import "style-includes/nprogress-ovewrite.css";
+@import "styles/nprogress-ovewrite.css";
 ```
 
 
