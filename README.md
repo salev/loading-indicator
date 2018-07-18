@@ -9,11 +9,12 @@ npm install nprogress --save
 npm install @types/nprogress --save
 ```
 
+You can customize color of a progress bar through nprogress-ovewrite.scss
 ```css
 @import "../node_modules/nprogress/nprogress.css";
 @import "style-includes/nprogress-ovewrite.css";
 ```
-You can customize color of a progress bar through nprogress-ovewrite.scss
+
 
 Include __LoadingIndicatorModule.forRoot()__ into your app module.
 
