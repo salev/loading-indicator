@@ -2,6 +2,9 @@
 
 ### [Demo](https://salev.github.io/angular/slv-loading-indicator/)
 
+The loading indicator takes advantage of Angular interceptor.
+Hence the progress bar will appear on each single or "banch" of Ajax requests.
+
 The loading indicator uses [nprogress](https://www.npmjs.com/package/nprogress)
 
 ```shell
@@ -15,7 +18,4 @@ You can customize color of a progress bar through nprogress-ovewrite.scss
 @import "<path>/nprogress-ovewrite.css";
 ```
 
-
 Include __LoadingIndicatorModule.forRoot()__ into your app module.
-
-Angular interceptor of the loading indicator will appear on each single or "banch" of Ajax requests.
